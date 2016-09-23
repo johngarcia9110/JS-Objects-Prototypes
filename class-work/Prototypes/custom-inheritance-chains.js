@@ -17,8 +17,8 @@ function Cat(name,color){
 
 //use our Animal function as the prototype for our cat
 
-Cat.prototype = Object.create(Animal.prototype);
-Cat.prototype.constructor = Cat;
+Cat.prototype = Object.create(Animal.prototype); // sets the prototype of Cat to Animal but also changes the constructor of Cat to Animal
+Cat.prototype.constructor = Cat; //set the constructor of our Cat object to cat instead of animal.
 
 var fluffy = new Cat('Fluffy', 'White');
 
