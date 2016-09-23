@@ -31,3 +31,5 @@ console.log(muffin.__proto__); //age 3
 
 // this is because the prototype of our cats (muffin and fluffy) is the Cat object. When we set the age for fluffy to 5, we set the age of the fluffy instance and not its prototype.
 
+// note: Instantace properties OVERRIDE the prototype property.
+
